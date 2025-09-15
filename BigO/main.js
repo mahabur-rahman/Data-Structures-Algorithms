@@ -14,10 +14,10 @@
 
 
 
-function getFirstElement(arr) {
-  console.log(`array: `, arr[0])
-    return arr[0]
-}
+// function getFirstElement(arr) {
+//   console.log(`array: `, arr[0])
+//     return arr[0]
+// }
 
 
-getFirstElement([1,2,3,4,5]) // 0(1) constant time complexity
+// getFirstElement([1,2,3,4,5]) // 0(1) constant time complexity
