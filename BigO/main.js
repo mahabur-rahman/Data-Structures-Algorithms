@@ -30,14 +30,28 @@
 
 // condition: if less than or equal 1 then return 1
 
-function factoria(n){
+// function factoria(n){
 
-  if(n <= 1) return 1
+//   if(n <= 1) return 1
 
-return n * factoria(n - 1)
+// return n * factoria(n - 1)
 
+// }
+
+
+// console.log(factoria(7))
+
+
+
+
+function sumOfArray(arr) {
+  let result = 0;
+  for(let i = 0; i < arr.length; i++){
+    result += arr[i]
+  }
+
+  return result
 }
 
 
-console.log(factoria(7))
-
+sumOfArray([1,2,3,4,5]) // 0(n) linear time complexity
