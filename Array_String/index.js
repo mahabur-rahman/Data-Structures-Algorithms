@@ -11,8 +11,6 @@
 
 // console.log(sumOfArray(arr));
 
-
-
 // function findMax(arr) {
 //   if (arr.length === 0) {
 //     return "Array is empty!";
@@ -30,3 +28,20 @@
 
 // const numbers = [3000, 8, 1, 9, 4, 67, 2, 900];
 // console.log(findMax(numbers));
+
+// Example 2: Reverse an Array
+
+function reverseArrayInPlace(arr) {
+  for (let i = 0, j = arr.length - 1; i < j; i++, j--) {
+    const temp = arr[i];
+
+    arr[i] = arr[j];
+    arr[j] = temp;
+  }
+
+  return arr;
+}
+
+const myList = [1, 4, 5, 10, 0, "bangladesh"];
+
+console.log(reverseArrayInPlace(myList));
