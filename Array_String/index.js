@@ -33,26 +33,27 @@
 // empty 
 // avoid string
 
-function reverseArrayInPlace(arr) {
-  if(arr.length === 0) {
-    return "Array is empty!";
-  }
-  for (let i = 0, j = arr.length - 1; i < j; i++, j--) {
+// function reverseArrayInPlace(arr) {
+//   if(arr.length === 0) {
+//     return "Array is empty!";
+//   }
+//   for (let i = 0, j = arr.length - 1; i < j; i++, j--) {
 
-    // avoid string 
+//     // avoid string 
 
-    // console.log(typeof arr[j], arr[j]);
-    const temp = arr[i];
+//     // console.log(typeof arr[j], arr[j]);
+//     const temp = arr[i];
 
-    arr[i] = arr[j];
-    arr[j] = temp;
-  }
+//     arr[i] = arr[j];
+//     arr[j] = temp;
+//   }
 
-  const filteredArr = arr.filter(item => typeof item === 'string');
+//   const filteredArr = arr.filter(item => typeof item === 'string');
 
-  return filteredArr;
-}
+//   return filteredArr;
+// }
 
-const myList = [1, "4", 5, 6, 'a', 'bd'];
+// const myList = [1, "4", 5, 6, 'a', 'bd'];
 
-console.log(reverseArrayInPlace(myList));
+// console.log(reverseArrayInPlace(myList));
+
